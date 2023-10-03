@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+.snip1361 {
+  font-family: 'Quattrocento', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #141414;
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.snip1361 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1361 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1361 figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 40px;
+}
+.snip1361 h3,
+.snip1361 p {
+  margin: 0 0 10px;
+}
+.snip1361 h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-family: 'Oswald', Arial, sans-serif;
+  text-transform: uppercase;
+}
+.snip1361 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.snip1361:hover figcaption,
+.snip1361.hover figcaption {
+  top: 330px;
+}
+
+
+.Phone_text{
+  cursor:pointer;
+    position:relative;
+    padding:10px 20px;
+    background:white;
+    font-size:13px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:all 1s;
+    &:after,&:before{
+      content:" ";
+      width:10px;
+      height:10px;
+      position:absolute;
+      border :0px solid #fff;
+      transition:all 1s;
+      }
+    &:after{
+      top:-1px;
+      left:-1px;
+      border-top:5px solid black;
+      border-left:5px solid black;
+    }
+    &:before{
+      bottom:-1px;
+      right:-1px;
+      border-bottom:5px solid black;
+      border-right:5px solid black;
+    }
+    &:hover{
+      border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+      // background:rgba(0,0,0,.5);
+      // color:white;
+      &:before,&:after{
+        
+        width:100%;
+        height:100%;
+        // border-color:white;
+      }
+    }
+  }
+  
+  .Phone_button{
+    background:#ffebee;
+    display:flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content:center;
+    align-items:center;
+    column-gap: 20px;
+  }
+
+
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    z-index: 100;
+  }
+  
+  /* Created by http://grohit.com/  */
+  footer{
+      text-align: center;
+    font-size: 10px;
+  }
+
+
+  .btn-23 {
+    background: #fff;
+    border: none;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    width: 130px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+  }
+    
+  .btn-23::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: rgb(20, 20, 20);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .btn-23:hover {
+    color: #fff;
+  }
+  
+  .btn-23:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 479px) {
+
+.btn-23 {
+  padding: 10px 10px;
+  font-size: 12px;
+  width: 120px;
+}
+  
+  }
