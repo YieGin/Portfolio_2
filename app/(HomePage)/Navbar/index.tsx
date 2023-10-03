@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
           )}
           {theme === "light" && (
             <Image
-              className="h-max w-max"
+              className="TabletSm:h-[70px] SmartphonesSm:h-[40px] w-full"
               alt="Logo"
               src={LogoBlack}
             />
