@@ -20,7 +20,7 @@ const caseStudies: CaseStudy[] = [
     title: "React js",
     subtitle: "Gym Vanguard Elite",
     description:
-      "I developed this unique and original website with meticulous attention to detail, incorporating my own creations along with design elements crafted by an experienced designer. The code is clean and well-organized, and the site is fully responsive, adapting smoothly from 4K to 320px resolutions. I invite you to explore the site and welcome your feedback on the integration of professional design and functionality. Thank you!",
+      "I developed this unique website with a keen focus on detail, combining sophisticated design elements crafted by an experienced designer. The code is meticulously clean and well-organized, ensuring that the site is fully responsive and adapts seamlessly across a wide range of screen resolutions, from 4K to 320px. I invite you to explore the site and would greatly appreciate your feedback on how effectively it integrates professional design with functionality. Thank you!",
     websiteLink: "https://gym-vanguard-elite-eedd.vercel.app",
     codeLink: "https://github.com/YieGin/Gym-Vanguard-Elite",
   },
